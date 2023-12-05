@@ -85,8 +85,8 @@ function Modal(props) {
                                     <div className="pint_mock_icon_container">
                                         <img src="./images/up-arrow.png" alt="upload_img" className="pint_mock_icon" />
                                     </div>
-                                    <div>Click to upload</div>
-                                    <div>Recommendation: Use high-quality .jpg less than 20MB</div>
+                                    <div>Clic para subir imagen</div>
+                                    <div>Recomendacion: Usa alta calidad .jpg menor a 20MB</div>
                                 </div>
                             </div>
 
@@ -104,7 +104,7 @@ function Modal(props) {
                     </div>
 
                     <div className="section3">
-                        <div className="save_from_site">Save from site</div>
+                        <div className="save_from_site">Guardar desde el sitio</div>
                     </div>
                 </div>
 
@@ -112,19 +112,19 @@ function Modal(props) {
                     <div className="section1">
                         <div className="select_size">
                             <select defaultValue="Select" name="pin_size" id="pin_size">
-                                <option value="">Select</option>
-                                <option value="small">small</option>
-                                <option value="medium">medium</option>
-                                <option value="large">large</option>
+                                <option value="">Tamaño</option>
+                                <option value="small">pequeño</option>
+                                <option value="medium">mediano</option>
+                                <option value="large">grande</option>
                             </select>
-                            <div onClick={() => save_pin(pinDetails, props.add_pin)} className="save_pin">Save</div>
+                            <div onClick={() => save_pin(pinDetails, props.add_pin)} className="save_pin">Publicar</div>
                         </div>
                     </div>
 
                     <div className="section2">
-                        <input placeholder="Add your title" type="text" className="new_pin_input" id="pin_title" />
-                        <input placeholder="Tell everyone what your Pin is about" type="text" className="new_pin_input" id="pin_description" />
-                        <input placeholder="Add a destination link" type="text" className="new_pin_input" id="pin_destination" />
+                        <input placeholder="Agrega un titulo" type="text" className="new_pin_input" id="pin_title" />
+                        <input placeholder="Cuentales a todos sobre tu Pin" type="text" className="new_pin_input" id="pin_description" />
+                        <input placeholder="Agrega un enlace" type="text" className="new_pin_input" id="pin_destination" />
                     </div>
                 </div>
             </div>
