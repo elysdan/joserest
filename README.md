@@ -1,14 +1,18 @@
-# ReactJS Pinterest Clone
+# ReactJS Clon de Pinterest
 
-Learn how to create a Pinterest clone using ReactJS.
-No external libraries needed.
-
-
+Un clon de Pinterest llamado Comunet, esta creado en React sin librerias externas.
+Primero se deben instalar las dependecias.
 ```
 >> npm install
 ```
 
-Get the project up and spinning...
+Para inicializarlo usar lo siguiente...
 ```
 >> npm start
 ```
+En caso de error, ejecutar
+
+```
+>> npm audit fix --force
+```
+y luego npm start
